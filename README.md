@@ -8,8 +8,9 @@ applications that will run on Oregon State Universtiy ENGR servers. The producti
    - [Windows](https://docs.docker.com/docker-for-windows/install/)
    - [Linux (Ubuntu)](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 1. Clone the repository to your machine
-1. Run `sh dev-setup.sh` from the command line on Linux or `dev-setup.bat` from the command prompt on Windows for 
-   details about the  setup scripts
+1. (On Linux) Launch `sh setup.sh` from the terminal & follow the on screen prompts. 
+   - use 1234 as the database password for local development
+1. (On Windows) Manually launch the `dev-setup.bat` from the command prompt and follow the on screen prompts.
 
 ## Environment Setup
 
