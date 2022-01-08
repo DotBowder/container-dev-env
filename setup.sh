@@ -18,8 +18,8 @@ mkdir -p "${SCRIPTS_FOLDER}"
 mkdir -p "${PUBLIC_FOLDER}"
 mkdir -p "${PRIVATE_FOLDER}"
 
-git clone git@github.com:osu-tekbots/capstone-website.git "${PUBLIC_FOLDER}"
-git clone git@github.com:osu-tekbots/container-dev-env.git "${SCRIPTS_FOLDER}"
+git clone git@github.com:DotBowder/capstone-website.git "${PUBLIC_FOLDER}"
+git clone git@github.com:DotBowder/container-dev-env.git "${SCRIPTS_FOLDER}"
 
 find "${SCRIPTS_FOLDER}" -type f -name "*.sh" -exec chmod +x {} \;
 
